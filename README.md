@@ -1,2 +1,1 @@
-# python-openai-discord-bot
-Genix Bot
+# Openai Discord Bot (GENİX)
