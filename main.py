@@ -20,15 +20,13 @@ intents.typing = True
 intents.presences = True
 intents.message_content = True
 
-# Discord botunu oluşturma
 bot = commands.Bot(command_prefix=prefix, intents=intents)
 
-# Bot hazır olduğunda çalışacak olay
 @bot.event
 async def on_ready():
     print(f"Bot olarak giriş yapıldı: {bot.user.name}")
 
-# "ask" komutu
+# "ask" commands
 @bot.command()
 async def ask(ctx, *, question=None): #!ask command
     if question is None:
