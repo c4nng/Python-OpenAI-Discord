@@ -1,4 +1,4 @@
-# Openai Discord Bot (GENİX)
+# Openai Discord Bot (GENİX v.01)
 
 Bot yapılandırma dosyasından Discord bot tokenini ve OpenAI API anahtarını okur.
 Kullanıcıların belirli bir komutla (örneğin "!ask") bir soru sorması beklenir.
